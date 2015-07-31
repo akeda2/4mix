@@ -1,4 +1,4 @@
-desc:4-channel to stereo mixer 1,2 is L,R. 3 is Center. 4 is spot.
+desc:4-channel to stereo mixer 1,2 is L,R. 3 is Center. 4 is (optional) spot.
 
 in_pin:Left
 in_pin:Right
@@ -10,7 +10,7 @@ out_pin:Right
 slider1:-1.6<-90,10,1>Stereo-LR
 slider2:-1.6<-90,10,1>Center
 slider3:-90<-90,10,1>Spot
-slider4:0<-12,12,0.1>Crossfade L-R <-> Center
+slider4:0<-12,12,0.1>Crossfade: L,R <-|-> Center
 
 @init
 bpos=0;
